@@ -1,0 +1,38 @@
+.semaforo{
+  position: fixed;
+  left: 40%;
+  border-radius: 50px;
+  /* -webkit-transform: translate(-49%); */
+  /* transform: translate(-49%); */
+  width:200px;
+  height: 400px;
+  background-color: black;
+  /* z-index: -1; */
+}
+
+.red{
+  position: relative;
+  width:80px;
+  height:80px;
+  background-color:red;
+  border-radius: 50px;
+  margin: 40px 60px;
+}
+.yellow{
+  position: relative;
+  width:80px;
+  height:80px;
+  background-color:yellow;
+  border-radius: 50px;
+  margin-left: 60px;
+}
+
+.green{
+  position: relative;
+  width:80px;
+  height:80px;
+  background-color:green;
+  border-radius: 50px;
+  margin-left: 60px;
+  margin-top: 45px;
+}
