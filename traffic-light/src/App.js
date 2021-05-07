@@ -6,9 +6,9 @@ const [state, setState] = useState('');
 
   return (
     <div className="semaforo">
-      <div className = "red"></div>
-      <div className = "yellow"></div>
-      <div className = "green"></div>
+      <div className = {`red ${state==='red' ? "selectedRed": ""}`} onClick ={()=>setState("red")}></div>
+      <div className = {`yellow ${state==='yellow' ? "selectedYellow": ""}`} onClick ={()=>setState("yellow")}></div>
+      <div className = {`green ${state==='green' ? "selectedGreen": ""}`} onClick ={()=>setState("green")}></div>
     </div>
     
   );

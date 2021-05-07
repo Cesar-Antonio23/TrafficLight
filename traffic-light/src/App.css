@@ -2,19 +2,17 @@
   position: fixed;
   left: 40%;
   border-radius: 50px;
-  /* -webkit-transform: translate(-49%); */
-  /* transform: translate(-49%); */
   width:200px;
   height: 400px;
   background-color: black;
-  /* z-index: -1; */
+  
 }
 
 .red{
   position: relative;
   width:80px;
   height:80px;
-  background-color:red;
+  background-color:rgb(177, 26, 26);
   border-radius: 50px;
   margin: 40px 60px;
 }
@@ -22,7 +20,7 @@
   position: relative;
   width:80px;
   height:80px;
-  background-color:yellow;
+  background-color:rgb(180, 180, 22);
   border-radius: 50px;
   margin-left: 60px;
 }
@@ -35,4 +33,31 @@
   border-radius: 50px;
   margin-left: 60px;
   margin-top: 45px;
+}
+
+.selectedRed{
+  position: relative;
+  width:80px;
+  height:80px;
+  background-color:rgb(214, 32, 32);
+  border-radius: 50px;
+  box-shadow: 0 0 50px rgb(238, 100, 82);
+}
+
+.selectedYellow{
+  position: relative;
+  width:80px;
+  height:80px;
+  background-color:rgb(223, 223, 47);
+  border-radius: 50px;
+  box-shadow: 0 0 50px rgb(224, 222, 83);
+}
+
+.selectedGreen{
+  position: relative;
+  width:80px;
+  height:80px;
+  background-color:rgb(33, 155, 22);
+  border-radius: 50px;
+  box-shadow: 0 0 50px rgb(119, 243, 88);
 }
